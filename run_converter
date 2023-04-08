@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+# hps2gmx_topol_converter written by Xianshi Liu @ Fudan University, 2022. 
+
+import hps2gmx_topol_converter as hgtc
+import sys
+
+hgtc.Hps2GmxTopol(sys.argv)
