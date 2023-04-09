@@ -1,5 +1,9 @@
 # hps2gmx_topol_converter
+[![GitHub](https://img.shields.io/github/license/sscake/hps2gmx_topol_converter)](LICENSE)
+[![GitHub top language](https://img.shields.io/github/languages/top/sscake/hps2gmx_topol_converter)](https://www.python.org/)  
 This program aims to generate the topology file in GROMACS format to use GROMACS built-in analysis program after the implementation of HydroPathy Scale (HPS) simulation.  
+
+The HPS parameters of amino acids used in this program are from [here](https://doi.org/10.1371/journal.pcbi.1005941), and the ones of nucleotides are from [here](https://doi.org/10.1093/nar/gkaa1099). 
 
 # Preparation
 This program have to read the HPS topololgy information to generate the GROMACS topology file, thus the HPS topology information should be provided in the following format.  
@@ -54,3 +58,6 @@ The uasge is also very convenient. Just type *./run_converter -hps /input/path/t
 If your topology information filename is "hps_topol.txt" and the GROMACS topology filename is expected to be "topol.top", just run *./run_converter* !  
   
 Hope you enjoy it!   
+
+If you encounter any problem when using it, feel free to contact with me!  
+E-mail: xsliu16@fudan.edu.cn
